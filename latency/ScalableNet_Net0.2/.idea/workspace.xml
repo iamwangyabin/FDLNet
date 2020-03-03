@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a43c1aac-83e5-4e36-baed-ebdb255180c4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/.idea/rfnet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/hpatch_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/material/img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/material/img3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/model/rf_des.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/model/rf_det.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/model/rf_det_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/model/rf_det_so.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/model/rf_net_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/model/rf_net_so.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/ms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/ms.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/receptive_field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/resume.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/torch_receptive_field/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/torch_receptive_field/receptive_field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/train.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/utils/common_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/utils/eval_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/utils/hpatch_to_csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/utils/image_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/utils/math_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/utils/net_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net1.0_with100strength/utils/train_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/.idea/rfnet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/JIT.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/hpatch_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/material/img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/material/img3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/material/outImg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/model/des.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/model/det.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/model/network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/model/rf_det_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/model/rf_net_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/model/rf_net_so.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/ms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/ms.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/new_train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/resume.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/train.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/utils/common_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/utils/eval_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/utils/hpatch_to_csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/utils/image_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/utils/math_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/utils/net_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet/utils/train_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet_Net0.1/utils/distributKeys.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalableNet_Net0.1/utils/distributKeys.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet_Net0.1_trian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalableNet_Net0.1_trian/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet_Net0.1_trian/hpatch_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalableNet_Net0.1_trian/hpatch_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet_Net0.1_trian/model/det.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalableNet_Net0.1_trian/model/det.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet_Net0.1_trian/model/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalableNet_Net0.1_trian/model/network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet_Net0.1_trian/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalableNet_Net0.1_trian/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet_Net0.1_trian/train.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalableNet_Net0.1_trian/train.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScalableNet_base/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ScalableNet_base/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../new_Net1.0/model/rf_det.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/.idea/rfnet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/example.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/hpatch_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/model/rf_des.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/model/rf_det_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/model/rf_det_so.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/model/rf_net_module.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/model/rf_net_so.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/ms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/ms.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/receptive_field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/resume.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/torch_receptive_field/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/torch_receptive_field/receptive_field.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/train.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/utils/common_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/utils/eval_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/utils/hpatch_to_csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/utils/image_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/utils/math_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/utils/net_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../only_top_layer/utils/train_utils.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/det.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-374">
+              <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+              <folding>
+                <element signature="e#25#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1400">
+              <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+              <folding>
+                <element signature="e#73#86#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="57" column="83" selection-start-line="57" selection-start-column="83" selection-end-line="57" selection-end-column="83" />
+              <folding>
+                <element signature="e#25#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/des.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="110" column="43" lean-forward="true" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/network.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+              <folding>
+                <element signature="e#25#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-480">
+              <caret line="165" column="23" lean-forward="true" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+              <folding>
+                <element signature="e#25#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/image_utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6540">
+              <caret line="331" column="4" selection-start-line="331" selection-start-column="4" selection-end-line="331" selection-end-column="4" />
+              <folding>
+                <element signature="e#72#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hpatch_dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7440">
+              <caret line="383" column="52" selection-start-line="383" selection-start-column="52" selection-end-line="383" selection-end-column="52" />
+              <folding>
+                <element signature="e#25#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1680">
+              <caret line="135" column="20" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>homo</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/receptive_field.py" />
+        <option value="$PROJECT_DIR$/model/rf_det_so.py" />
+        <option value="$PROJECT_DIR$/model/rf_net_so.py" />
+        <option value="$PROJECT_DIR$/utils/distributKeys.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/utils/net_utils.py" />
+        <option value="$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/skimage/color/colorconv.py" />
+        <option value="$PROJECT_DIR$/train.sh" />
+        <option value="$PROJECT_DIR$/resume.sh" />
+        <option value="$PROJECT_DIR$/hpatch_dataset.py" />
+        <option value="$PROJECT_DIR$/ms.py" />
+        <option value="$PROJECT_DIR$/model/network.py" />
+        <option value="$PROJECT_DIR$/example.py" />
+        <option value="$PROJECT_DIR$/model/des.py" />
+        <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/model/det.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/rfnet.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="485" />
+    <option name="y" value="153" />
+    <option name="width" value="1031" />
+    <option name="height" value="1054" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ScalableNet_Net0.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalableNet_Net0.2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalableNet_Net0.2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalableNet_Net0.2" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a43c1aac-83e5-4e36-baed-ebdb255180c4" name="Default Changelist" comment="" />
+      <created>1567223102515</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567223102515</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10049153" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50027305" side_tool="true" weight="0.29183674" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49972692" weight="0.2867347" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49972692" visible="true" weight="0.25408164" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/model/des.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/torch_receptive_field/receptive_field.py" />
+    <entry file="file://$PROJECT_DIR$/a.txt" />
+    <entry file="file://$PROJECT_DIR$/score_maps.txt" />
+    <entry file="file://$PROJECT_DIR$/model/rf_des.py" />
+    <entry file="file://$PROJECT_DIR$/model/rf_det_module.py" />
+    <entry file="file://$PROJECT_DIR$/model/rf_det_so.py" />
+    <entry file="file://$PROJECT_DIR$/model/rf_net_module.py" />
+    <entry file="file://$PROJECT_DIR$/model/rf_net_so.py" />
+    <entry file="file://$PROJECT_DIR$/utils/distributKeys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/receptive_field.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outImg.png" />
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/torch/nn/modules/instancenorm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-784">
+          <caret line="217" column="6" selection-start-line="217" selection-start-column="6" selection-end-line="217" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/torch/nn/modules/normalization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="133" column="69" selection-start-line="133" selection-start-column="51" selection-end-line="133" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="20">
+            <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/outImg3.png" />
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/torch/nn/modules/conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="337" selection-start-line="337" selection-end-line="337" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/torch/nn/modules/container.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/skimage/color/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#2122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/torchvision/transforms/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="199" selection-start-line="199" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-1836335520/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10841" column="8" selection-start-line="10841" selection-start-column="8" selection-end-line="10841" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/skimage/color/colorconv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="798" column="36" selection-start-line="798" selection-start-column="36" selection-end-line="798" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/torchvision/transforms/transforms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/tensorboardX/writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="23" />
+          <folding>
+            <element signature="e#116#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/train_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/torch/utils/checkpoint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resume.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-1836335520/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-496">
+          <caret line="10969" column="4" lean-forward="true" selection-start-line="10969" selection-start-column="4" selection-end-line="10969" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/skimage/transform/_warps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="295" column="4" selection-start-line="295" selection-start-column="4" selection-end-line="295" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/torch/nn/modules/batchnorm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/math_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2140">
+          <caret line="108" column="4" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/tensorflow/python/ops/distributions/distribution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="571" column="6" selection-start-line="571" selection-start-column="6" selection-end-line="571" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-1836335520/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="2997" column="6" selection-start-line="2997" selection-start-column="6" selection-end-line="2997" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/net_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding>
+            <element signature="e#72#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/torch/optim/optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="114" selection-start-line="114" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/rfnet/lib/python3.6/site-packages/torch/nn/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="2538" selection-start-line="2538" selection-end-line="2538" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+          <folding>
+            <element signature="e#73#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#25#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/image_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6540">
+          <caret line="331" column="4" selection-start-line="331" selection-start-column="4" selection-end-line="331" selection-end-column="4" />
+          <folding>
+            <element signature="e#72#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hpatch_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7440">
+          <caret line="383" column="52" selection-start-line="383" selection-start-column="52" selection-end-line="383" selection-end-column="52" />
+          <folding>
+            <element signature="e#25#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="57" column="83" selection-start-line="57" selection-start-column="83" selection-end-line="57" selection-end-column="83" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/des.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="110" column="43" lean-forward="true" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="165" column="23" lean-forward="true" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+          <folding>
+            <element signature="e#25#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="135" column="20" selection-start-line="135" selection-start-column="20" selection-end-line="135" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/det.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+          <folding>
+            <element signature="e#25#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
